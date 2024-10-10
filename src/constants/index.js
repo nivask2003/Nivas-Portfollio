@@ -26,6 +26,7 @@ import {
     bootstrap,
     phpicon,
     mysql,
+    googleclone,
   } from "../assets";
   
   export const navLinks = [
@@ -246,6 +247,23 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Google Clone App",
+      description:
+        "The Google Clone app replicates the basic functionality and layout of the Google homepage, providing a clean and simple search interface. Built with HTML and CSS, this project showcases responsive design and attention to detail, emulating the familiar minimalist style of the original Google page.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+      ],
+      image: googleclone,
+      source_code_link: "https://github.com/nivask2003/google-clone-app.git",
     },
   ];
   
