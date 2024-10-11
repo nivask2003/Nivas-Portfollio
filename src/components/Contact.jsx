@@ -32,9 +32,8 @@ const Contact = () =>{
       setLoading(true);
 
       emailjs
-        .send(
-          import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-          import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        .send('service_p7bhzw8',
+          'template_jzvkikn',
           {
             from_name: form.name,
             to_name: "Nivas Kumar S",
@@ -42,7 +41,7 @@ const Contact = () =>{
             to_email: "nivask457@gmail.com",
             message: form.message,
           },
-          import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+          '6WcPGlS_8Nq4luIWG'
         )
         .then(() => {
           setLoading(false);
@@ -90,7 +89,7 @@ const Contact = () =>{
               /> 
            </label> 
            <label className='flex flex-col'>
-              <span className='text-white font-medium mb-4'>Your Name</span>
+              <span className='text-white font-medium mb-4'>Your Email</span>
               <input
                 type="email"
                 name="email"
@@ -101,7 +100,7 @@ const Contact = () =>{
               /> 
            </label> 
            <label className='flex flex-col'>
-              <span className='text-white font-medium mb-4'>Your Name</span>
+              <span className='text-white font-medium mb-4'>Your Message</span>
               <textarea
                 rows={7}
                 name="message"
