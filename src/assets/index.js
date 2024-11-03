@@ -32,9 +32,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.jpg";
-import googleclone from "./image.png";
+import googleclone from "./google.png";
+import quizapp from "./quiz.png";
+import landing from './landing.png';
 
 export {
+  landing,
+  quizapp,
   googleclone,
   logo,
   backend,
