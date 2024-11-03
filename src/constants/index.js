@@ -27,6 +27,8 @@ import {
     phpicon,
     mysql,
     googleclone,
+    quizapp,
+    landing,
   } from "../assets";
   
   export const navLinks = [
@@ -264,6 +266,44 @@ import {
       ],
       image: googleclone,
       source_code_link: "https://github.com/nivask2003/google-clone-app.git",
+    },
+    {
+      name: "Quiz Web Application",
+      description:
+        "The Quiz Web Application is an interactive platform for testing knowledge through multiple-choice questions. It provides instant feedback, displaying scores and correct answers after the quiz.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: quizapp,
+      source_code_link: "https://github.com/nivask2003/Quiz-App.git",
+    },
+    {
+      name: "Landing Page",
+      description:
+        "A sleek and responsive landing page built with React and Bootstrap, designed to deliver a seamless user experience. Featuring modern UI components and intuitive navigation, it showcases your brand effectively across all devices.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap 5",
+          color: "green-text-gradient",
+        },
+      ],
+      image: landing,
+      source_code_link: "https://github.com/nivask2003/Quiz-App.git",
     },
   ];
   
